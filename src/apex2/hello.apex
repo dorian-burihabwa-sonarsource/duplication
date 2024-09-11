@@ -1,20 +1,23 @@
-public class hello {
+public class Hello {
     public static void main(String[] args) {
-        system.debug("Hello, World!");
-        system.debug("Fibonnaci(12): " + fibonnaci(12));
-        system.debug("Fibonnaci(12): " + fibonnaci2(12));
-        system.debug("Fibonnaci(12): " + fibonnaci(12));
-        system.debug("Fibonnaci(12): " + fibonnaci2(12));
-        system.debug("Fibonnaci(12): " + fibonnaci(12));
-        system.debug("Fibonnaci(12): " + fibonnaci2(12));
-        system.debug("Fibonnaci(12): " + fibonnaci(12));
-        system.debug("Fibonnaci(12): " + fibonnaci2(12));
-        system.debug("Fibonnaci(12): " + fibonnaci(12));
-        system.debug("Fibonnaci(12): " + fibonnaci2(12));
-        system.debug("Fibonnaci(12): " + fibonnaci(12));
-        system.debug("Fibonnaci(12): " + fibonnaci2(12));
-        system.debug("Fibonnaci(12): " + fibonnaci(12));
-        system.debug("Fibonnaci(12): " + fibonnaci2(12));
+        system.debug('Hello, World!');
+        system.debug('Fibonnaci(12): ' + fibonnaci(12));
+        system.debug('Fibonnaci(12): ' + fibonnaci2(12));
+        system.debug('Fibonnaci(12): ' + fibonnaci(12));
+        system.debug('Fibonnaci(12): ' + fibonnaci2(12));
+        system.debug('Fibonnaci(12): ' + fibonnaci(12));
+        system.debug('Fibonnaci(12): ' + fibonnaci2(12));
+        system.debug('Fibonnaci(12): ' + fibonnaci(12));
+        system.debug('Fibonnaci(12): ' + fibonnaci2(12));
+        system.debug('Fibonnaci(12): ' + fibonnaci(12));
+        system.debug('Fibonnaci(12): ' + fibonnaci2(12));
+        system.debug('Fibonnaci(12): ' + fibonnaci(12));
+        system.debug('Fibonnaci(12): ' + fibonnaci2(12));
+        system.debug('Fibonnaci(12): ' + fibonnaci(12));
+        system.debug('Fibonnaci(12): ' + fibonnaci2(12));
+        String nullReference = null;
+        String message = nullReference ?? 'Hello, world!';
+        system.debug(message);
     }
 
     public static void fibonnaci(){
@@ -36,4 +39,4 @@ public class hello {
             system.debug('output' + nextterm);
         } 
     }
-} 
+}
