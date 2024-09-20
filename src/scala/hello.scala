@@ -1,15 +1,4 @@
 object Hello {
-    def main(args: Array[String]) = {
-        println("Hello, world")
-        println("Fibonnaci(12): " + fibSequenceRecursion(12))
-        println("Fibonnaci(12): " + fibSequenceRecursion(12))
-        println("Fibonnaci(12): " + fibSequenceRecursion(12))
-        println("Fibonnaci(12): " + fibSequenceRecursion(12))
-        println("Fibonnaci(12): " + fibSequenceRecursion(12))
-        println("Fibonnaci(12): " + fibSequenceRecursion(12))
-        println("Fibonnaci(12): " + fibSequenceRecursion(12))
-        println("Fibonnaci(12): " + fibSequenceRecursion(12))
-    }
 
     def fibSequenceRecursion(sequenceSize: Int): Seq[Long] = {
         def getNextNum(num: Long): Long = {
@@ -20,6 +9,18 @@ object Hello {
             }
         }
         (0L until sequenceSize).map(getNextNum)
+    }
+
+    def main(args: Array[String]) = {
+        println("Fibonnaci(12): " + fibSequenceRecursion(12))
+        println("Fibonnaci(12): " + fibSequenceRecursion(12))
+
+        println("Hello, world")
+        println("Hello, world")
+        println("Hello, world")
+        println("Fibonnaci(12): " + fibSequenceRecursion(12))
+        println("Fibonnaci(12): " + fibSequenceRecursion(12))
+        println("Fibonnaci(12): " + fibSequenceRecursion(12))
     }
 
     def fibTailRec(sequenceSize: Int): Seq[Long] = {
