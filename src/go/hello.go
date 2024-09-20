@@ -5,18 +5,14 @@ import (
 )
 
 func main() {
+	fmt.Println("Fibonnaci(12): ", fibonnaci(12))
+	fmt.Println("Fibonnaci(12): ", fibonnaci2(12))
+	fmt.Println("Fibonnaci(12): ", fibonnaci(12))
+	fmt.Println("Fibonnaci(12): ", fibonnaci2(12))
 	fmt.Println("Hello, World!")
-	fmt.Println("Fibonnaci(12): ", fibonnaci(12))
-	fmt.Println("Fibonnaci(12): ", fibonnaci2(12))
-	fmt.Println("Fibonnaci(12): ", fibonnaci(12))
-	fmt.Println("Fibonnaci(12): ", fibonnaci2(12))
-	fmt.Println("Fibonnaci(12): ", fibonnaci(12))
-	fmt.Println("Fibonnaci(12): ", fibonnaci2(12))
-	fmt.Println("Fibonnaci(12): ", fibonnaci(12))
-	fmt.Println("Fibonnaci(12): ", fibonnaci2(12))
 }
 
-func fibonnaci(n int) int {
+func fibonnaci2(n int) int {
 	if n <= 1 {
 		return n
 	}
@@ -27,7 +23,7 @@ func fibonnaci(n int) int {
 	return n1
 }
 
-func fibonnaci2(n int) int {
+func fibonnaci(n int) int {
 	if n <= 1 {
 		return n
 	}
